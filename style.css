@@ -1,0 +1,172 @@
+ @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+ * {
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+     font-family: 'Space Grotesk', sans-serif;
+
+ }
+
+ body {
+     background: rgba(29, 29, 31, 1);
+ }
+
+ header {
+     height: 10vh;
+ }
+
+ main {
+     height: 80vh;
+     text-align: center;
+ }
+
+ section {
+     display: inline-block;
+     width: 10%;
+     vertical-align: middle;
+ }
+
+ h1 {
+
+     font-size: 54px;
+     letter-spacing: -0.08em;
+     color: #ffffff;
+     margin-bottom: 16px;
+ }
+
+ .texto p {
+
+     font-size: 22px;
+     color: #898889;
+     margin-bottom: 30px;
+
+ }
+
+ figure img {
+     height: 30px;
+
+ }
+
+ .login,
+ .botões {
+     display: inline-block;
+     width: 30%;
+ }
+
+ .login {
+     margin-top: 20px;
+ }
+
+ input {
+     width: 100%;
+     height: 60px;
+     background-color: rgba(34, 34, 34, 1);
+     padding: 5px;
+     border-radius: 5px;
+     margin-bottom: 10px;
+ }
+
+ button img,
+ button p {
+     display: inline-block;
+     vertical-align: middle;
+     margin-left: 10px;
+ }
+
+ button p {
+     margin-left: 20px;
+ }
+
+ button img {
+     height: 30px;
+
+ }
+
+ button {
+     font-family: 'Inter', sans-serif;
+     color: #ffffff;
+     height: 60px;
+     padding: 5px;
+     display: block;
+     width: 100%;
+     margin-bottom: 10px;
+     text-align: start;
+     font-weight: 500;
+
+     background-color: rgba(34, 34, 34, 1);
+     font-size: 16px;
+     border: 1px;
+     border-style: solid;
+     border-image: linear-gradient(90deg, #A9A5FD 0%, #EBD75D 101.62%);
+     border-image-slice: 1;
+     border-radius: 5px;
+
+ }
+ button:hover{
+    scale: 1.02;
+    transition: all 0.9s;
+    cursor: pointer;
+    background-image: linear-gradient(90deg, #A9A5FD 0%, #EBD75D 101.62%);
+    color: black;
+ }
+
+ .botãoLogin {
+     background: linear-gradient(90deg, #A9A5FD 0%, #EBD75D 101.62%);
+     font-weight: bold;
+     color: black;
+ }
+
+ a:hover{
+    color: black;
+ }
+.ponta{
+    text-align: start;
+    font-size: 12px;
+}
+ .login a {
+     text-decoration: none;
+     color: white;
+ }
+
+
+ button span {
+     margin-left: 150px;
+     font-size: 18px;
+ }
+
+ .texto {
+     width: 100vw;
+     display: block;
+     text-align: center;
+ }
+
+ .texto p {
+     width: 50%;
+     margin-left: 22vw;
+ }
+
+ .esqueciSenha {
+     display: block;
+
+ }
+
+ footer p {
+     margin-left: 4vw;
+     font-size: 18px;
+     color: #ffffff;
+ }
+
+ footer span {
+     margin-left: 70vw;
+ }
+ .esqueciSenha{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+    letter-spacing: -2px;
+ }
+
